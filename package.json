@@ -1,0 +1,14 @@
+{
+  "name": "line-blog-auto",
+  "version": "1.0.0",
+  "description": "LINE Blog Generator with Claude API - Auto Generated",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/webhook.js",
+    "test": "node test-claude.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.59.0",
+    "axios": "^1.6.0"
+  }
+}
