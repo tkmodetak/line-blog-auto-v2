@@ -7,3 +7,4 @@ module.exports = (req, res) => {
     timestamp: new Date().toISOString()
   });
 };
+// Force rebuild
